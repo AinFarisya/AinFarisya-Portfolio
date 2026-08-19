@@ -1,0 +1,1131 @@
+import "./App.css";
+import profilePhoto from "./assets/profile.jpg";
+
+function App() {
+  return (
+    <div className="portfolio">
+
+      {/* =========================
+          NAVBAR
+      ========================== */}
+      <nav className="navbar">
+        <div className="logo">
+          Ain<span>.</span>
+        </div>
+
+        <div className="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#leadership">Leadership</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+
+      {/* =========================
+          HERO
+      ========================== */}
+      <section className="hero" id="home">
+
+        <div className="hero-content">
+
+          <p className="hello">Hello, I'm</p>
+
+          <h1>
+            Nur'Ain <span>Farisya</span>
+          </h1>
+
+          <h2>
+            Final-Year IT Student | Data Analytics | SAP | Full-Stack Development
+          </h2>
+
+          <p className="hero-description">
+            Bachelor of Information Technology (Hons.) student at Universiti
+            Teknologi PETRONAS, majoring in Data Analytics with a minor in
+            Financial Management.
+          </p>
+
+          <p className="hero-description">
+            Experienced in SAP functional support, full-stack development,
+            databases and data-driven system development through industry and
+            academic projects.
+          </p>
+
+          <div className="availability-badge">
+            🎓 Expected Graduation: December 2026
+          </div>
+
+          <div className="hero-buttons">
+
+            <a href="#projects" className="primary-btn">
+              View My Projects
+            </a>
+
+            <a
+              href="https://github.com/AinFarisya"
+              target="_blank"
+              rel="noreferrer"
+              className="secondary-btn"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://linkedin.com/in/ainfarisya0328"
+              target="_blank"
+              rel="noreferrer"
+              className="secondary-btn"
+            >
+              LinkedIn
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div className="hero-visual">
+
+          <div className="profile-circle">
+            <img
+              src={profilePhoto}
+              alt="Nur'Ain Farisya"
+              className="profile-photo"
+            />
+          </div>
+
+          <div className="floating-card card-one">
+            <span>📊</span>
+            Data Analytics
+          </div>
+
+          <div className="floating-card card-two">
+            <span>💻</span>
+            Full-Stack
+          </div>
+
+          <div className="floating-card card-three">
+            <span>⚙️</span>
+            SAP
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          ABOUT
+      ========================== */}
+      <section className="section" id="about">
+
+        <div className="section-heading">
+          <p>Get to know me</p>
+          <h2>About Me</h2>
+        </div>
+
+        <div className="about-grid">
+
+          <div className="about-text">
+
+            <p>
+              I am a final-year Bachelor of Information Technology (Hons.)
+              student at Universiti Teknologi PETRONAS with a current
+              <strong> CGPA of 3.67</strong>.
+            </p>
+
+            <p>
+              My academic interests include data analytics, machine learning,
+              database management and system development. I enjoy applying
+              technology to practical problems and transforming information
+              into solutions that support better decision-making.
+            </p>
+
+            <p>
+              During my internship at Celestica GBS Penang, I gained practical
+              industry exposure as part of the SAP COE Functional Team,
+              supporting real business users and working with enterprise
+              processes involving SAP MM/WM and SD.
+            </p>
+
+            <p>
+              I am currently preparing for graduate opportunities in Data
+              Analytics, SAP, Business Systems, IT and related technology roles.
+            </p>
+
+          </div>
+
+
+          <div className="about-stats">
+
+            <div className="stat-card">
+              <h3>3.67</h3>
+              <p>Current CGPA</p>
+            </div>
+
+            <div className="stat-card">
+              <h3>8</h3>
+              <p>Dean's List Semesters</p>
+            </div>
+
+            <div className="stat-card">
+              <h3>2026</h3>
+              <p>Expected Graduation</p>
+            </div>
+
+            <div className="stat-card">
+              <h3>SAP</h3>
+              <p>Industry Experience</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          EDUCATION
+      ========================== */}
+      <section className="section soft-section" id="education">
+
+        <div className="section-heading">
+          <p>Academic background</p>
+          <h2>Education</h2>
+        </div>
+
+
+        <div className="education-list">
+
+          {/* UTP */}
+          <div className="education-card">
+
+            <p className="education-year">
+              September 2023 – December 2026
+            </p>
+
+            <h3>
+              Universiti Teknologi PETRONAS
+            </h3>
+
+            <h4>
+              Bachelor of Information Technology (Hons.)
+            </h4>
+
+            <p>Major in Data Analytics</p>
+
+            <p>Minor in Financial Management</p>
+
+            <div className="education-highlight">
+              CGPA 3.67 • Expected Graduation December 2026
+            </div>
+
+          </div>
+
+
+          {/* MATRICULATION */}
+          <div className="education-card">
+
+            <p className="education-year">
+              May 2021 – May 2023
+            </p>
+
+            <h3>
+              Pulau Pinang Matriculation College
+            </h3>
+
+            <h4>
+              Matriculation in Physical Science
+            </h4>
+
+            <p>Physics Stream</p>
+
+            <div className="education-highlight">
+              CGPA 3.48
+            </div>
+
+          </div>
+
+
+          {/* HIGH SCHOOL */}
+          <div className="education-card">
+
+            <p className="education-year">
+              2016 – 2021
+            </p>
+
+            <h3>
+              SMA Daeratul Maarifil Wataniah 1
+            </h3>
+
+            <h4>
+              Secondary Education
+            </h4>
+
+            <p>Science Stream</p>
+
+          </div>
+
+        </div>
+
+
+        {/* ACHIEVEMENTS */}
+        <div className="subsection-heading achievement-heading">
+          <p>Recognition</p>
+          <h2>Achievements</h2>
+        </div>
+
+
+        <div className="achievement-grid">
+
+          <div className="achievement-item">
+            <span>🏆</span>
+
+            <div>
+              <h3>Dean's List</h3>
+              <p>Semester 1 to Semester 8</p>
+            </div>
+          </div>
+
+
+          <div className="achievement-item">
+            <span>🥉</span>
+
+            <div>
+              <h3>National-Level Kabaddi Competition</h3>
+              <p>Bronze Medal</p>
+            </div>
+          </div>
+
+
+          <div className="achievement-item">
+            <span>🥉</span>
+
+            <div>
+              <h3>MASCAR — Matriculation STEM Carnival</h3>
+              <p>Bronze Award</p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          EXPERIENCE
+      ========================== */}
+      <section className="section" id="experience">
+
+        <div className="section-heading">
+          <p>Industry & work exposure</p>
+          <h2>Professional Experience</h2>
+        </div>
+
+
+        {/* CELESTICA */}
+        <div className="experience-card">
+
+          <div className="experience-top">
+
+            <div>
+              <h3>Celestica GBS Penang (M) Sdn. Bhd.</h3>
+              <h4>IT Intern — SAP Functional Team, SAP COE</h4>
+            </div>
+
+            <span className="date">
+              Sep 2025 – Apr 2026
+            </span>
+
+          </div>
+
+
+          <ul>
+
+            <li>
+              Supported day-to-day SAP functional operations by managing and
+              responding to business-user requests submitted through ServiceNow.
+            </li>
+
+            <li>
+              Worked primarily with SAP MM/WM and SD processes involving
+              service requests, cost roll activities and functional system
+              enhancements.
+            </li>
+
+            <li>
+              Communicated directly with business users to understand
+              requirements, clarify reported issues and support appropriate
+              functional resolutions.
+            </li>
+
+            <li>
+              Assisted with functional testing and validation of SAP-related
+              changes to confirm that requirements were properly addressed
+              before completion.
+            </li>
+
+            <li>
+              Developed a full-stack Project Tracking and Workload Monitoring
+              System to improve the SAP COE team's existing Excel-based project
+              and employee workload tracking process.
+            </li>
+
+            <li>
+              Presented and demonstrated the completed system to team members
+              and incorporated feedback to further improve usability and
+              functionality.
+            </li>
+
+          </ul>
+
+
+          <div className="tag-row">
+            <span>SAP MM/WM</span>
+            <span>SAP SD</span>
+            <span>ServiceNow</span>
+            <span>Microsoft Excel</span>
+            <span>PostgreSQL</span>
+            <span>Node.js</span>
+          </div>
+
+        </div>
+
+
+        {/* TEACHER ASSISTANT */}
+        <div className="experience-card second-experience">
+
+          <div className="experience-top">
+
+            <div>
+              <h3>Sekolah Kebangsaan Mohd Shah</h3>
+              <h4>Preschool Teacher Assistant</h4>
+            </div>
+
+            <span className="date">
+              Jun 2023 – Aug 2023
+            </span>
+
+          </div>
+
+
+          <ul>
+
+            <li>
+              Assisted preschool teachers in supporting daily classroom
+              activities and early learning sessions for children aged
+              four to six years.
+            </li>
+
+            <li>
+              Guided children through basic literacy activities focused on
+              recognising letters, improving spelling and developing early
+              learning abilities.
+            </li>
+
+            <li>
+              Supported children during classroom exercises and helped create
+              a positive and engaging environment suitable for different
+              learning needs.
+            </li>
+
+            <li>
+              Communicated with young learners patiently and effectively while
+              adapting explanations and guidance according to their level of
+              understanding.
+            </li>
+
+            <li>
+              Strengthened communication, adaptability, multitasking and
+              problem-solving skills through continuous interaction with
+              students and teachers.
+            </li>
+
+          </ul>
+
+
+          <div className="tag-row">
+            <span>Communication</span>
+            <span>Problem Solving</span>
+            <span>Adaptability</span>
+            <span>Multitasking</span>
+            <span>Teamwork</span>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          PROJECTS
+      ========================== */}
+      <section className="section soft-section" id="projects">
+
+        <div className="section-heading">
+          <p>What I've built</p>
+          <h2>Featured Projects</h2>
+        </div>
+
+
+        <div className="projects-grid">
+
+          {/* FYP */}
+          <div className="project-card featured-project">
+
+            <div className="project-number">01</div>
+
+            <p className="project-type">
+              Final Year Project • 2026
+            </p>
+
+            <h3>
+              Lecturer Learning Analytics & Student Risk Prediction System
+            </h3>
+
+            <p>
+              Developed a full-stack learning analytics platform designed to
+              help lecturers transform assessment data into meaningful
+              performance insights.
+            </p>
+
+            <p>
+              The system validates structured Excel assessment files,
+              calculates student and class performance, analyses chapter-level
+              results and identifies the strongest and weakest learning areas.
+            </p>
+
+            <p>
+              Machine learning is integrated to classify students into academic
+              risk levels, supporting earlier identification of students who
+              may require additional attention.
+            </p>
+
+            <div className="tag-row">
+              <span>Python</span>
+              <span>Django</span>
+              <span>React</span>
+              <span>Pandas</span>
+              <span>scikit-learn</span>
+              <span>SQLite</span>
+            </div>
+
+            <a
+              href="https://github.com/AinFarisya/Lecturer-Learning-Analytics"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              View on GitHub →
+            </a>
+
+          </div>
+
+
+          {/* INTERNSHIP PROJECT */}
+          <div className="project-card">
+
+            <div className="project-number">02</div>
+
+            <p className="project-type">
+              Internship Project • Celestica
+            </p>
+
+            <h3>
+              Project Tracking & Workload Monitoring System
+            </h3>
+
+            <p>
+              Developed a full-stack web-based system during my internship to
+              improve the SAP COE team's existing Excel-based task and project
+              management process.
+            </p>
+
+            <p>
+              Designed separate administrator and user dashboards together
+              with project management workflows, workload monitoring, priority
+              tracking and task status management.
+            </p>
+
+            <p>
+              Integrated Kanban-style task views and Gantt chart
+              visualisations to provide clearer visibility of project progress,
+              responsibilities and workload distribution.
+            </p>
+
+            <div className="tag-row">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>TypeScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>PostgreSQL</span>
+            </div>
+
+            <p className="project-note">
+              GitHub case study will contain non-confidential project materials.
+            </p>
+
+          </div>
+
+
+          {/* UTPFOOD */}
+          <div className="project-card">
+
+            <div className="project-number">03</div>
+
+            <p className="project-type">
+              Object-Oriented Programming Project • 2024
+            </p>
+
+            <h3>
+              UTP Cafe Online Ordering System (UTPFood)
+            </h3>
+
+            <p>
+              Developed a campus food ordering application inspired by
+              commercial food delivery platforms as part of the
+              Object-Oriented Programming course.
+            </p>
+
+            <p>
+              The application enables students to identify available campus
+              cafes, browse menus and prices, and place orders for either
+              pickup or delivery.
+            </p>
+
+            <p>
+              The project applied object-oriented concepts including classes,
+              objects, encapsulation and methods to model practical food
+              ordering workflows.
+            </p>
+
+            <div className="tag-row">
+              <span>Java</span>
+              <span>Object-Oriented Programming</span>
+              <span>GUI</span>
+              <span>System Design</span>
+            </div>
+
+            <p className="project-note">
+              GitHub repository coming soon.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        {/* =========================
+            OTHER ACADEMIC PROJECTS
+        ========================== */}
+        <div className="subsection-heading">
+          <p>Additional work</p>
+          <h2>Other Academic Projects</h2>
+        </div>
+
+
+        <div className="other-projects-grid">
+
+          {/* CAREVO */}
+          <div className="mini-project-card">
+
+            <span className="mini-year">2025</span>
+
+            <h3>
+              AI-Driven Mental Wellness & Assistance System (Carevo+)
+            </h3>
+
+            <p>
+              Conceptualised an AI-driven mental wellness assistance platform
+              designed to provide accessible and personalised emotional support
+              through a mobile-based system.
+            </p>
+
+            <p>
+              The proposed platform explored emotional-state detection through
+              text, voice and facial input at prototype level, allowing the
+              system to provide relevant self-help tools and guided activities.
+            </p>
+
+            <p>
+              The concept also considered professional support options and
+              offline-friendly features for users with limited connectivity.
+              I contributed to UI design, early system planning and feature
+              development based on user survey insights.
+            </p>
+
+            <div className="tag-row">
+              <span>Artificial Intelligence</span>
+              <span>UI/UX</span>
+              <span>User Research</span>
+              <span>System Planning</span>
+            </div>
+
+          </div>
+
+
+          {/* FLIGHT BOOKING */}
+          <div className="mini-project-card">
+
+            <span className="mini-year">2024</span>
+
+            <h3>
+              Flight Booking System
+            </h3>
+
+            <p>
+              Developed a web-based flight booking system for the Web
+              Application and Interactive Programming course.
+            </p>
+
+            <p>
+              The application allows users to search available flights and
+              submit flight bookings through an interactive web interface,
+              providing a complete flow from flight selection to reservation.
+            </p>
+
+            <p>
+              The project used HTML, CSS and JavaScript for the user interface
+              and connected the application to a MySQL database, strengthening
+              my understanding of frontend, backend and database interaction in
+              a web application.
+            </p>
+
+            <div className="tag-row">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>MySQL</span>
+            </div>
+
+            <p className="mini-note">
+              GitHub repository coming soon.
+            </p>
+
+          </div>
+
+
+          {/* PREGNANCY AWARENESS */}
+          <div className="mini-project-card">
+
+            <span className="mini-year">2024</span>
+
+            <h3>
+              Pregnancy Awareness & Support Platform
+            </h3>
+
+            <p>
+              Designed a pregnancy awareness and support platform using
+              Human-Computer Interaction principles with a strong focus on
+              usability and user-centred interface design.
+            </p>
+
+            <p>
+              The interface was structured to provide clear information,
+              intuitive navigation and visually accessible content for users
+              seeking pregnancy-related awareness and support.
+            </p>
+
+            <p>
+              Conducted usability evaluation and incorporated user feedback to
+              improve information architecture, visual clarity and content
+              readability.
+            </p>
+
+            <div className="tag-row">
+              <span>HCI</span>
+              <span>UI/UX</span>
+              <span>Usability Testing</span>
+              <span>Canva</span>
+            </div>
+
+          </div>
+
+
+          {/* THEME PARK */}
+          <div className="mini-project-card">
+
+            <span className="mini-year">2024</span>
+
+            <h3>
+              Theme Park Ticket Reservation System
+            </h3>
+
+            <p>
+              Developed a console-based ticket reservation system as part of
+              my first-year Structured Programming course using C++.
+            </p>
+
+            <p>
+              The application enables users to select and reserve theme park
+              tickets while processing booking information and presenting
+              meaningful reservation outputs.
+            </p>
+
+            <p>
+              The project strengthened my understanding of fundamental
+              programming concepts including functions, loops, conditional
+              statements, basic data handling and structured problem-solving.
+            </p>
+
+            <div className="tag-row">
+              <span>C++</span>
+              <span>Structured Programming</span>
+              <span>Functions</span>
+              <span>Data Handling</span>
+            </div>
+
+            <p className="mini-note">
+              GitHub repository coming soon.
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          SKILLS
+      ========================== */}
+      <section className="section" id="skills">
+
+        <div className="section-heading">
+          <p>Technical toolkit</p>
+          <h2>Technical Skills</h2>
+        </div>
+
+
+        <div className="skills-grid">
+
+          <div className="skill-card">
+            <h3>Programming</h3>
+            <p>Python</p>
+            <p>JavaScript</p>
+            <p>C++</p>
+            <p>Java</p>
+          </div>
+
+
+          <div className="skill-card">
+            <h3>Web Development</h3>
+            <p>React</p>
+            <p>Django</p>
+            <p>Node.js</p>
+            <p>Express.js</p>
+            <p>HTML & CSS</p>
+          </div>
+
+
+          <div className="skill-card">
+            <h3>Data & Databases</h3>
+            <p>Data Analytics</p>
+            <p>Machine Learning</p>
+            <p>Pandas</p>
+            <p>PostgreSQL</p>
+            <p>MySQL</p>
+            <p>SQLite</p>
+          </div>
+
+
+          <div className="skill-card">
+            <h3>Enterprise & Tools</h3>
+            <p>SAP MM/WM</p>
+            <p>SAP SD</p>
+            <p>ServiceNow</p>
+            <p>GitHub</p>
+            <p>Figma</p>
+            <p>VS Code</p>
+            <p>Streamlit</p>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          LEADERSHIP
+      ========================== */}
+      <section
+        className="section soft-section"
+        id="leadership"
+      >
+
+        <div className="section-heading">
+          <p>Beyond academics</p>
+          <h2>Leadership & Activities</h2>
+        </div>
+
+
+        <div className="leadership-grid">
+
+          {/* ARMy */}
+          <div className="leadership-card">
+
+            <span>
+              May 2025 – Aug 2025
+            </span>
+
+            <h3>
+              Admission Records Marketing Youth (ARMy)
+            </h3>
+
+            <h4>
+              Assistant Department Head
+            </h4>
+
+            <p>
+              Supported a student-led organisation focused on university
+              admissions and outreach initiatives while assisting in the
+              coordination of departmental responsibilities and programme
+              activities.
+            </p>
+
+            <p>
+              Worked with team members to support communication, planning and
+              execution of activities designed to engage prospective students
+              and strengthen university outreach efforts.
+            </p>
+
+          </div>
+
+
+          {/* CAVE */}
+          <div className="leadership-card">
+
+            <span>
+              May 2025
+            </span>
+
+            <h3>
+              Campus Venture Day (CAVE)
+            </h3>
+
+            <h4>
+              Assistant Project Director
+            </h4>
+
+            <p>
+              Assisted in coordinating participating organisations and
+              facilitating communication between programme teams to support
+              successful event implementation.
+            </p>
+
+            <p>
+              Provided guidance related to booth preparation, promotional
+              materials and interactive activities while helping manage
+              logistics and maintain smooth programme execution.
+            </p>
+
+          </div>
+
+
+          {/* MPU4 */}
+          <div className="leadership-card">
+
+            <span>
+              Jan 2025 – May 2025
+            </span>
+
+            <h3>
+              Engagement Community Project – MPU4
+            </h3>
+
+            <h4>
+              Assistant Project Director
+            </h4>
+
+            <p>
+              Helped coordinate a community engagement programme involving
+              science experiments, basic robotics and technology-based learning
+              activities tailored to students' learning levels.
+            </p>
+
+            <p>
+              Worked closely with the project team to coordinate activities,
+              communication and programme implementation while supporting a
+              meaningful and engaging learning experience for participants.
+            </p>
+
+          </div>
+
+
+          {/* CSR */}
+          <div className="leadership-card">
+
+            <span>
+              Feb 2025
+            </span>
+
+            <h3>
+              ARMy CSR Donation Drive
+            </h3>
+
+            <h4>
+              Secretary
+            </h4>
+
+            <p>
+              Supported a community donation initiative focused on collecting
+              unused clothing and essential items for asnaf communities,
+              elderly individuals and recipients in need.
+            </p>
+
+            <p>
+              Assisted with programme documentation, coordination and
+              communication to support effective collection and distribution
+              activities.
+            </p>
+
+          </div>
+
+
+          {/* NEXAGATE */}
+          <div className="leadership-card">
+
+            <span>
+              Sep 2024
+            </span>
+
+            <h3>
+              Industrial Visit — Nexagate / Cyberhax
+            </h3>
+
+            <h4>
+              Secretary
+            </h4>
+
+            <p>
+              Supported the organisation and documentation of an industrial
+              visit that introduced participants to practical cybersecurity
+              operations, professional practices and technology-industry
+              environments.
+            </p>
+
+            <p>
+              Assisted with programme coordination and communication while
+              gaining exposure to real-world cybersecurity operations and
+              industry expectations.
+            </p>
+
+          </div>
+
+
+          {/* TDU */}
+          <div className="leadership-card">
+
+            <span>
+              March 2024
+            </span>
+
+            <h3>
+              Talent Development Unit Program
+            </h3>
+
+            <h4>
+              Secretary
+            </h4>
+
+            <p>
+              Managed programme documentation, meeting minutes, schedules and
+              administrative records to support effective planning and
+              execution of the programme.
+            </p>
+
+            <p>
+              Coordinated communication with participants, speakers and
+              university departments while ensuring important programme
+              information was recorded and communicated appropriately.
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          CONTACT
+      ========================== */}
+      <section
+        className="contact-section"
+        id="contact"
+      >
+
+        <div>
+
+          <p className="contact-label">
+            Let's connect
+          </p>
+
+          <h2>
+            Interested in working together?
+          </h2>
+
+          <p>
+            I am currently preparing for graduate opportunities in Data
+            Analytics, SAP, Business Systems, IT and related technology roles.
+          </p>
+
+          <p>
+            📍 Penang, Malaysia
+          </p>
+
+        </div>
+
+
+        <div className="contact-links">
+
+          <a href="mailto:farisyaain.2810@gmail.com">
+            farisyaain.2810@gmail.com
+          </a>
+
+          <a href="tel:+60192232810">
+            +60 19-223 2810
+          </a>
+
+          <a
+            href="https://linkedin.com/in/ainfarisya0328"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/AinFarisya"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          FOOTER
+      ========================== */}
+      <footer>
+        <p>
+          © 2026 Nur'Ain Farisya. Built with React.
+        </p>
+      </footer>
+
+    </div>
+  );
+}
+
+export default App;
