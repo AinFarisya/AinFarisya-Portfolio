@@ -684,19 +684,23 @@ function App() {
             </p>
 
             <div className="tag-row">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
+              <span>React</span>
               <span>TypeScript</span>
               <span>Node.js</span>
               <span>Express.js</span>
               <span>PostgreSQL</span>
             </div>
 
-            <p className="project-note">
-              GitHub case study will contain non-confidential project materials.
-            </p>
+            <a
+  href="https://github.com/AinFarisya/Project-Tracking-Workload-Monitoring-System"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="project-link"
+>
+  View on GitHub →
+</a>
 
+  
           </div>
 
 
@@ -836,10 +840,6 @@ function App() {
               <span>MySQL</span>
             </div>
 
-            <p className="mini-note">
-              GitHub repository coming soon.
-            </p>
-
           </div>
 
 
@@ -916,10 +916,6 @@ function App() {
               <span>Functions</span>
               <span>Data Handling</span>
             </div>
-
-            <p className="mini-note">
-              GitHub repository coming soon.
-            </p>
 
           </div>
 
