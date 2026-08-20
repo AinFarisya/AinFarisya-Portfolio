@@ -215,7 +215,6 @@ function App() {
           <h2>Education</h2>
         </div>
 
-
         <div className="education-list">
 
           {/* UTP */}
@@ -225,9 +224,7 @@ function App() {
               September 2023 – December 2026
             </p>
 
-            <h3>
-              Universiti Teknologi PETRONAS
-            </h3>
+            <h3>Universiti Teknologi PETRONAS</h3>
 
             <h4>
               Bachelor of Information Technology (Hons.)
@@ -279,9 +276,7 @@ function App() {
               SMA Daeratul Maarifil Wataniah 1
             </h3>
 
-            <h4>
-              Secondary Education
-            </h4>
+            <h4>Secondary Education</h4>
 
             <p>Science Stream</p>
 
@@ -297,7 +292,6 @@ function App() {
           <p>Recognition</p>
           <h2>Achievements</h2>
         </div>
-
 
         <div className="achievement-grid">
 
@@ -444,15 +438,8 @@ function App() {
             </button>
 
             <div className="proof-modal-heading">
-
-              <h3>
-                {selectedProof.title}
-              </h3>
-
-              <p>
-                {selectedProof.subtitle}
-              </p>
-
+              <h3>{selectedProof.title}</h3>
+              <p>{selectedProof.subtitle}</p>
             </div>
 
             <img
@@ -467,121 +454,119 @@ function App() {
       )}
 
 
-     {/* =========================
-    EXPERIENCE
-========================== */}
-<section className="section" id="experience">
+      {/* =========================
+          EXPERIENCE
+      ========================== */}
+      <section className="section" id="experience">
 
-  <div className="section-heading">
-    <p>Industry & work exposure</p>
-    <h2>Professional Experience</h2>
-  </div>
-
-
-  {/* CELESTICA */}
-  <div className="experience-card">
-
-    <div className="experience-top">
-
-      <div>
-        <h3>Celestica GBS Penang (M) Sdn. Bhd.</h3>
-        <h4>IT Intern — SAP Functional Team, SAP COE</h4>
-      </div>
-
-      <span className="date">
-        Sep 2025 – Apr 2026
-      </span>
-
-    </div>
+        <div className="section-heading">
+          <p>Industry & work exposure</p>
+          <h2>Professional Experience</h2>
+        </div>
 
 
-    <ul>
+        {/* CELESTICA */}
+        <div className="experience-card">
 
-      <li>
-        Managed and supported daily SAP functional requests through ServiceNow,
-        mainly involving SAP MM/WM and SD processes, helping business users
-        resolve operational issues and maintain smooth system usage.
-      </li>
+          <div className="experience-top">
 
-      <li>
-        Performed functional support activities including service requests,
-        cost roll processes, system enhancements and requirement clarification
-        with business users, ensuring requested changes were accurately
-        understood and addressed.
-      </li>
+            <div>
+              <h3>Celestica GBS Penang (M) Sdn. Bhd.</h3>
+              <h4>IT Intern — SAP Functional Team, SAP COE</h4>
+            </div>
 
-      <li>
-        Executed functional testing and validation for SAP-related changes
-        before completion, helping confirm that enhancements met business
-        requirements and reduced the risk of implementation issues.
-      </li>
+            <span className="date">
+              Sep 2025 – Apr 2026
+            </span>
 
-    </ul>
+          </div>
 
+          <ul>
 
-    <div className="tag-row">
-      <span>SAP MM/WM</span>
-      <span>SAP SD</span>
-      <span>ServiceNow</span>
-      <span>Functional Testing</span>
-      <span>Microsoft Excel</span>
-    </div>
+            <li>
+              Managed and supported daily SAP functional requests through
+              ServiceNow, mainly involving SAP MM/WM and SD processes, helping
+              business users resolve operational issues and maintain smooth
+              system usage.
+            </li>
 
-  </div>
+            <li>
+              Performed functional support activities including service
+              requests, cost roll processes, system enhancements and requirement
+              clarification with business users, ensuring requested changes were
+              accurately understood and addressed.
+            </li>
 
+            <li>
+              Executed functional testing and validation for SAP-related changes
+              before completion, helping confirm that enhancements met business
+              requirements and reduced the risk of implementation issues.
+            </li>
 
-  {/* TEACHER ASSISTANT */}
-  <div className="experience-card second-experience">
+          </ul>
 
-    <div className="experience-top">
+          <div className="tag-row">
+            <span>SAP MM/WM</span>
+            <span>SAP SD</span>
+            <span>ServiceNow</span>
+            <span>Functional Testing</span>
+            <span>Microsoft Excel</span>
+          </div>
 
-      <div>
-        <h3>Sekolah Kebangsaan Mohd Shah</h3>
-        <h4>Preschool Teacher Assistant</h4>
-      </div>
-
-      <span className="date">
-        Jun 2023 – Aug 2023
-      </span>
-
-    </div>
-
-
-    <ul>
-
-      <li>
-        Supported preschool teachers in conducting daily classroom and
-        early-learning activities for children aged 4–6, helping maintain an
-        organised and engaging learning environment.
-      </li>
-
-      <li>
-        Guided students through literacy activities including letter
-        recognition and basic spelling, supporting the development of their
-        foundational reading and language skills.
-      </li>
-
-      <li>
-        Adapted explanations and classroom support according to different
-        student learning needs while assisting with multiple activities,
-        strengthening communication, adaptability, multitasking and
-        problem-solving skills.
-      </li>
-
-    </ul>
+        </div>
 
 
-    <div className="tag-row">
-      <span>Communication</span>
-      <span>Problem Solving</span>
-      <span>Adaptability</span>
-      <span>Multitasking</span>
-      <span>Teamwork</span>
-    </div>
+        {/* TEACHER ASSISTANT */}
+        <div className="experience-card second-experience">
 
-  </div>
+          <div className="experience-top">
 
-</section>
+            <div>
+              <h3>Sekolah Kebangsaan Mohd Shah</h3>
+              <h4>Preschool Teacher Assistant</h4>
+            </div>
+
+            <span className="date">
+              Jun 2023 – Aug 2023
+            </span>
+
+          </div>
+
+          <ul>
+
+            <li>
+              Supported preschool teachers in conducting daily classroom and
+              early-learning activities for children aged 4–6, helping maintain
+              an organised and engaging learning environment.
+            </li>
+
+            <li>
+              Guided students through literacy activities including letter
+              recognition and basic spelling, supporting the development of
+              their foundational reading and language skills.
+            </li>
+
+            <li>
+              Adapted explanations and classroom support according to different
+              student learning needs while assisting with multiple activities,
+              strengthening communication, adaptability, multitasking and
+              problem-solving skills.
+            </li>
+
+          </ul>
+
+          <div className="tag-row">
+            <span>Communication</span>
+            <span>Problem Solving</span>
+            <span>Adaptability</span>
+            <span>Multitasking</span>
+            <span>Teamwork</span>
+          </div>
+
+        </div>
+
+      </section>
+
 
       {/* =========================
           PROJECTS
@@ -596,7 +581,9 @@ function App() {
 
         <div className="projects-grid">
 
-          {/* FYP */}
+          {/* =========================
+              01 — FYP
+          ========================== */}
           <div className="project-card featured-project">
 
             <div className="project-number">
@@ -641,7 +628,7 @@ function App() {
             <a
               href="https://github.com/AinFarisya/Lecturer-Learning-Analytics"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="project-link"
             >
               View on GitHub →
@@ -650,7 +637,9 @@ function App() {
           </div>
 
 
-          {/* INTERNSHIP PROJECT */}
+          {/* =========================
+              02 — POWER BI DASHBOARD
+          ========================== */}
           <div className="project-card">
 
             <div className="project-number">
@@ -658,7 +647,63 @@ function App() {
             </div>
 
             <p className="project-type">
-              Internship Project • Celestica
+              Data Visualisation Project • 2026
+            </p>
+
+            <h3>
+              Student Performance Analytics Dashboard
+            </h3>
+
+            <p>
+              Developed an interactive Power BI dashboard to analyse student
+              performance data and present key academic indicators through
+              clear and meaningful visualisations.
+            </p>
+
+            <p>
+              Performed data cleaning and transformation using Power Query and
+              created calculated measures using DAX to support analysis of
+              student performance trends and related metrics.
+            </p>
+
+            <p>
+              Designed interactive dashboard components to make student
+              performance data easier to explore, compare and interpret for
+              data-driven analysis.
+            </p>
+
+            <div className="tag-row">
+              <span>Power BI</span>
+              <span>Power Query</span>
+              <span>DAX</span>
+              <span>Data Visualisation</span>
+              <span>Exploratory Data Analysis</span>
+              <span>Data Cleaning</span>
+            </div>
+
+            <a
+              href="https://github.com/AinFarisya/Student-Performance-Analytics-Dashboard"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View on GitHub →
+            </a>
+
+          </div>
+
+
+          {/* =========================
+              03 — INTERNSHIP PROJECT
+          ========================== */}
+          <div className="project-card">
+
+            <div className="project-number">
+              03
+            </div>
+
+            <p className="project-type">
+              Internship Project • 2025
             </p>
 
             <h3>
@@ -692,66 +737,13 @@ function App() {
             </div>
 
             <a
-  href="https://github.com/AinFarisya/Project-Tracking-Workload-Monitoring-System"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="project-link"
->
-  View on GitHub →
-</a>
-
-  
-          </div>
-
-
-          {/* UTP FOOD */}
-          <div className="project-card">
-
-            <div className="project-number">
-              03
-            </div>
-
-            <p className="project-type">
-              Object-Oriented Programming Project • 2024
-            </p>
-
-            <h3>
-              UTP Cafe Online Ordering System (UTPFood)
-            </h3>
-
-            <p>
-              Developed a campus food ordering application inspired by
-              commercial food delivery platforms as part of the
-              Object-Oriented Programming course.
-            </p>
-
-            <p>
-              The application enables students to identify available campus
-              cafes, browse menus and prices, and place orders for either
-              pickup or delivery.
-            </p>
-
-            <p>
-              The project applied object-oriented concepts including classes,
-              objects, encapsulation and methods to model practical food
-              ordering workflows.
-            </p>
-
-            <div className="tag-row">
-              <span>Java</span>
-              <span>Object-Oriented Programming</span>
-              <span>GUI</span>
-              <span>System Design</span>
-            </div>
-
-           <a
-  href="https://github.com/AinFarisya/UTPFood"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="project-link"
->
-  View on GitHub →
-</a>
+              href="https://github.com/AinFarisya/Project-Tracking-Workload-Monitoring-System"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View on GitHub →
+            </a>
 
           </div>
 
@@ -769,7 +761,9 @@ function App() {
 
         <div className="other-projects-grid">
 
-          {/* CAREVO */}
+          {/* =========================
+              2025 — CAREVO+
+          ========================== */}
           <div className="mini-project-card">
 
             <span className="mini-year">
@@ -809,7 +803,91 @@ function App() {
           </div>
 
 
-          {/* FLIGHT BOOKING */}
+          {/* =========================
+              2025 — PREGNANCY AWARENESS
+          ========================== */}
+          <div className="mini-project-card">
+
+            <span className="mini-year">
+              2025
+            </span>
+
+            <h3>
+              Pregnancy Awareness & Support Platform
+            </h3>
+
+            <p>
+              Designed a pregnancy awareness and support platform using
+              Human-Computer Interaction principles with a strong focus on
+              usability and user-centred interface design.
+            </p>
+
+            <p>
+              The interface was structured to provide clear information,
+              intuitive navigation and visually accessible content for users
+              seeking pregnancy-related awareness and support.
+            </p>
+
+            <p>
+              Conducted usability evaluation and incorporated user feedback to
+              improve information architecture, visual clarity and content
+              readability.
+            </p>
+
+            <div className="tag-row">
+              <span>HCI</span>
+              <span>UI/UX</span>
+              <span>Usability Testing</span>
+              <span>Canva</span>
+            </div>
+
+          </div>
+
+
+          {/* =========================
+              2024 — TCP/IP & WIRESHARK
+          ========================== */}
+          <div className="mini-project-card">
+
+            <span className="mini-year">
+              2024
+            </span>
+
+            <h3>
+              TCP/IP Protocol Suite & Network Traffic Analysis
+            </h3>
+
+            <p>
+              Explored and configured multiple TCP/IP protocols including HTTP,
+              DNS, Telnet, SSH, FTP, TFTP and DHCP through network simulation
+              and traffic analysis activities.
+            </p>
+
+            <p>
+              Used eNSP and Cisco Packet Tracer to configure network devices,
+              IP addressing, routing, servers and connectivity between clients
+              and servers.
+            </p>
+
+            <p>
+              Captured and analysed network traffic using Wireshark to examine
+              protocol behaviour, packet exchanges, connectivity and security
+              differences between protocols such as Telnet and SSH.
+            </p>
+
+            <div className="tag-row">
+              <span>Wireshark</span>
+              <span>eNSP</span>
+              <span>TCP/IP</span>
+              <span>Network Analysis</span>
+            </div>
+
+          </div>
+
+
+          {/* =========================
+              2024 — FLIGHT BOOKING
+          ========================== */}
           <div className="mini-project-card">
 
             <span className="mini-year">
@@ -848,7 +926,9 @@ function App() {
           </div>
 
 
-          {/* PREGNANCY AWARENESS */}
+          {/* =========================
+              2024 — THEME PARK
+          ========================== */}
           <div className="mini-project-card">
 
             <span className="mini-year">
@@ -856,70 +936,354 @@ function App() {
             </span>
 
             <h3>
-              Pregnancy Awareness & Support Platform
+              Theme Park Reservation System
             </h3>
 
             <p>
-              Designed a pregnancy awareness and support platform using
-              Human-Computer Interaction principles with a strong focus on
-              usability and user-centred interface design.
+              Developed a C++ console-based theme park reservation system as
+              part of my first-year Structured Programming course.
             </p>
 
             <p>
-              The interface was structured to provide clear information,
-              intuitive navigation and visually accessible content for users
-              seeking pregnancy-related awareness and support.
+              The application allows users to view ticket types, create
+              reservations, calculate ticket prices, review saved bookings and
+              cancel existing reservations using a Reservation ID.
             </p>
 
             <p>
-              Conducted usability evaluation and incorporated user feedback to
-              improve information architecture, visual clarity and content
-              readability.
-            </p>
-
-            <div className="tag-row">
-              <span>HCI</span>
-              <span>UI/UX</span>
-              <span>Usability Testing</span>
-              <span>Canva</span>
-            </div>
-
-          </div>
-
-
-          {/* THEME PARK */}
-          <div className="mini-project-card">
-
-            <span className="mini-year">
-              2024
-            </span>
-
-            <h3>
-              Theme Park Ticket Reservation System
-            </h3>
-
-            <p>
-              Developed a console-based ticket reservation system as part of
-              my first-year Structured Programming course using C++.
-            </p>
-
-            <p>
-              The application enables users to select and reserve theme park
-              tickets while processing booking information and presenting
-              meaningful reservation outputs.
-            </p>
-
-            <p>
-              The project strengthened my understanding of fundamental
-              programming concepts including functions, loops, conditional
-              statements, basic data handling and structured problem-solving.
+              Applied structured programming concepts including functions,
+              loops, conditional statements, input validation, file handling
+              and formatted data processing.
             </p>
 
             <div className="tag-row">
               <span>C++</span>
               <span>Structured Programming</span>
-              <span>Functions</span>
-              <span>Data Handling</span>
+              <span>File Handling</span>
+              <span>Input Validation</span>
+            </div>
+
+            <a
+              href="https://github.com/AinFarisya/Theme-Park-Reservation-System"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View on GitHub →
+            </a>
+
+          </div>
+
+
+          {/* =========================
+              2024 — UTP FOOD
+          ========================== */}
+          <div className="mini-project-card">
+
+            <span className="mini-year">
+              2024
+            </span>
+
+            <h3>
+              UTP Cafe Online Ordering System (UTPFood)
+            </h3>
+
+            <p>
+              Developed a campus food ordering application as part of the
+              Object-Oriented Programming course using Java.
+            </p>
+
+            <p>
+              The application enables students to browse available campus
+              cafes, view menu items and prices, manage their cart and place
+              orders for either pickup or delivery.
+            </p>
+
+            <p>
+              Applied object-oriented programming concepts including classes,
+              objects, encapsulation and methods to model practical food-ordering
+              workflows.
+            </p>
+
+            <div className="tag-row">
+              <span>Java</span>
+              <span>Object-Oriented Programming</span>
+              <span>Java Swing</span>
+              <span>File Handling</span>
+            </div>
+
+            <a
+              href="https://github.com/AinFarisya/UTPFood"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View on GitHub →
+            </a>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================
+          SKILLS
+      ========================== */}
+      <section className="section" id="skills">
+
+        <div className="section-heading">
+          <p>Technical toolkit</p>
+          <h2>Technical Skills</h2>
+        </div>
+
+        <div className="skills-grid">
+
+          {/* PROGRAMMING */}
+          <div className="skill-card">
+
+            <h3>Programming</h3>
+
+            <div className="skill-item">
+              <h4>Python</h4>
+              <p>
+                Used for data preprocessing, analytics and machine learning
+                implementation in my Final Year Project.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>JavaScript</h4>
+              <p>
+                Applied in interactive frontend functionality across web-based
+                academic and personal projects.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Java</h4>
+              <p>
+                Used to develop the UTP Food Online Ordering System while
+                applying Object-Oriented Programming concepts.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>C++</h4>
+              <p>
+                Applied structured programming, functions and application logic
+                in academic programming projects.
+              </p>
+            </div>
+
+          </div>
+
+
+          {/* WEB DEVELOPMENT */}
+          <div className="skill-card">
+
+            <h3>Web Development</h3>
+
+            <div className="skill-item">
+              <h4>React</h4>
+              <p>
+                Used to develop responsive frontend interfaces for my Final
+                Year Project and personal portfolio.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Django</h4>
+              <p>
+                Used as the backend framework for my Lecturer Learning
+                Analytics system, including API and data-processing
+                functionality.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Node.js</h4>
+              <p>
+                Applied in the development of the Project Tracking & Workload
+                Monitoring System during my internship.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Express.js</h4>
+              <p>
+                Used to develop backend APIs connecting system functionality
+                with the PostgreSQL database.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>HTML & CSS</h4>
+              <p>
+                Used to create structured, responsive and user-friendly
+                interfaces across web development projects.
+              </p>
+            </div>
+
+          </div>
+
+
+          {/* DATA ANALYTICS */}
+          <div className="skill-card">
+
+            <h3>Data Analytics & Databases</h3>
+
+            <div className="skill-item">
+              <h4>Data Analytics</h4>
+              <p>
+                Applied to analyse assessment data, identify performance
+                patterns and support data-driven insights.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Machine Learning</h4>
+              <p>
+                Implemented Logistic Regression, Random Forest and Decision Tree
+                models for student academic-risk classification.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Pandas</h4>
+              <p>
+                Used for data validation, cleaning, transformation and analytics
+                processing in Python.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Power BI</h4>
+              <p>
+                Used to develop interactive dashboards for analysing and
+                presenting student performance data.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Power Query</h4>
+              <p>
+                Used for data cleaning and transformation before dashboard
+                analysis in Power BI.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>DAX</h4>
+              <p>
+                Applied to create calculated measures and analytical metrics
+                for Power BI dashboards.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>PostgreSQL</h4>
+              <p>
+                Used as the database for the Project Tracking & Workload
+                Monitoring System developed during internship.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>MySQL</h4>
+              <p>
+                Applied in the Flight Booking System to store, retrieve and
+                manage booking information.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>SQLite</h4>
+              <p>
+                Used as a lightweight database during backend development and
+                system testing.
+              </p>
+            </div>
+
+          </div>
+
+
+          {/* ENTERPRISE & TOOLS */}
+          <div className="skill-card">
+
+            <h3>Enterprise & Tools</h3>
+
+            <div className="skill-item">
+              <h4>SAP MM/WM</h4>
+              <p>
+                Supported Materials Management and Warehouse Management
+                functional requests during my SAP COE internship.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>SAP SD</h4>
+              <p>
+                Gained hands-on exposure to Sales and Distribution processes
+                while supporting business-user requests.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>ServiceNow</h4>
+              <p>
+                Used to manage, monitor and support SAP-related service requests
+                submitted by business users.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Wireshark</h4>
+              <p>
+                Used to capture and analyse network traffic across protocols
+                including HTTP, Telnet, SSH, FTP, TFTP and DHCP.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>GitHub</h4>
+              <p>
+                Used for version control, repository management and deployment
+                of academic and personal projects.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Figma</h4>
+              <p>
+                Used for interface planning, prototyping and organising UI/UX
+                concepts before development.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>VS Code</h4>
+              <p>
+                Used as my main development environment for web, backend and
+                programming projects.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Streamlit</h4>
+              <p>
+                Used to build interactive data applications and dashboard-based
+                prototypes.
+              </p>
+            </div>
+
+            <div className="skill-item">
+              <h4>Microsoft Excel</h4>
+              <p>
+                Used for data handling, assessment templates and workflow-related
+                tasks across academic and internship work.
+              </p>
             </div>
 
           </div>
@@ -928,245 +1292,6 @@ function App() {
 
       </section>
 
-{/* =========================
-    SKILLS
-========================== */}
-<section className="section" id="skills">
-
-  <div className="section-heading">
-    <p>Technical toolkit</p>
-    <h2>Technical Skills</h2>
-  </div>
-
-  <div className="skills-grid">
-
-    {/* PROGRAMMING */}
-    <div className="skill-card">
-
-      <h3>Programming</h3>
-
-      <div className="skill-item">
-        <h4>Python</h4>
-        <p>
-          Used for data preprocessing, analytics and machine learning
-          implementation in my Final Year Project.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>JavaScript</h4>
-        <p>
-          Applied in interactive frontend functionality across web-based
-          academic and personal projects.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>Java</h4>
-        <p>
-          Used to develop the UTP Food Online Ordering System while applying
-          Object-Oriented Programming concepts.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>C++</h4>
-        <p>
-          Applied structured programming, functions and application logic in
-          academic programming projects.
-        </p>
-      </div>
-
-    </div>
-
-
-    {/* WEB DEVELOPMENT */}
-    <div className="skill-card">
-
-      <h3>Web Development</h3>
-
-      <div className="skill-item">
-        <h4>React</h4>
-        <p>
-          Used to develop responsive frontend interfaces for my Final Year
-          Project and personal portfolio.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>Django</h4>
-        <p>
-          Used as the backend framework for my Lecturer Learning Analytics
-          system, including API and data-processing functionality.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>Node.js</h4>
-        <p>
-          Applied in the development of the Project Tracking & Workload
-          Monitoring System during my internship.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>Express.js</h4>
-        <p>
-          Used to develop backend APIs connecting system functionality with
-          the PostgreSQL database.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>HTML & CSS</h4>
-        <p>
-          Used to create structured, responsive and user-friendly interfaces
-          across web development projects.
-        </p>
-      </div>
-
-    </div>
-
-
-    {/* DATA ANALYTICS */}
-    <div className="skill-card">
-
-      <h3>Data Analytics & Databases</h3>
-
-      <div className="skill-item">
-        <h4>Data Analytics</h4>
-        <p>
-          Applied to analyse assessment data, identify performance patterns
-          and support data-driven insights.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>Machine Learning</h4>
-        <p>
-          Implemented Logistic Regression, Random Forest and Decision Tree
-          models for student academic-risk classification.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>Pandas</h4>
-        <p>
-          Used for data validation, cleaning, transformation and analytics
-          processing in Python.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>Power BI</h4>
-        <p>
-          Used for data visualisation and dashboard-based analysis in
-          data-related academic work.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>PostgreSQL</h4>
-        <p>
-          Used as the database for the Project Tracking & Workload Monitoring
-          System developed during internship.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>MySQL</h4>
-        <p>
-          Applied in the Flight Booking System to store, retrieve and manage
-          booking information.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>SQLite</h4>
-        <p>
-          Used as a lightweight database during backend development and
-          system testing.
-        </p>
-      </div>
-
-    </div>
-
-
-    {/* ENTERPRISE & TOOLS */}
-    <div className="skill-card">
-
-      <h3>Enterprise & Tools</h3>
-
-      <div className="skill-item">
-        <h4>SAP MM/WM</h4>
-        <p>
-          Supported Materials Management and Warehouse Management functional
-          requests during my SAP COE internship.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>SAP SD</h4>
-        <p>
-          Gained hands-on exposure to Sales and Distribution processes while
-          supporting business-user requests.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>ServiceNow</h4>
-        <p>
-          Used to manage, monitor and support SAP-related service requests
-          submitted by business users.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>GitHub</h4>
-        <p>
-          Used for version control, repository management and deployment of
-          academic and personal projects.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>Figma</h4>
-        <p>
-          Used for interface planning, prototyping and organising UI/UX
-          concepts before development.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>VS Code</h4>
-        <p>
-          Used as my main development environment for web, backend and
-          programming projects.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>Streamlit</h4>
-        <p>
-          Used to build interactive data applications and dashboard-based
-          prototypes.
-        </p>
-      </div>
-
-      <div className="skill-item">
-        <h4>Microsoft Excel</h4>
-        <p>
-          Used for data handling, assessment templates and workflow-related
-          tasks across academic and internship work.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-      
 
       {/* =========================
           LEADERSHIP
@@ -1180,7 +1305,6 @@ function App() {
           <p>Beyond academics</p>
           <h2>Leadership & Activities</h2>
         </div>
-
 
         <div className="leadership-grid">
 
@@ -1398,7 +1522,6 @@ function App() {
           </p>
 
         </div>
-
 
         <div className="contact-links">
 
