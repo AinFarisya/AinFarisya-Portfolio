@@ -744,9 +744,14 @@ function App() {
               <span>System Design</span>
             </div>
 
-            <p className="project-note">
-              GitHub repository coming soon.
-            </p>
+           <a
+  href="https://github.com/AinFarisya/UTPFood"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="project-link"
+>
+  View on GitHub →
+</a>
 
           </div>
 
