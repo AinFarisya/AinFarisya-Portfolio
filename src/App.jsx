@@ -923,6 +923,15 @@ function App() {
               <span>MySQL</span>
             </div>
 
+           <a
+              href="https://github.com/AinFarisya/Flight-Booking-System"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View on GitHub →
+            </a> 
+
           </div>
 
 
